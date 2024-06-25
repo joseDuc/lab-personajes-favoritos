@@ -3,7 +3,7 @@ h1{
     font-size: 3em;
 
 }
-#contenedor {
+.contenedor {
     width: 500px;
     height: 350px;
     margin: 0 auto;
@@ -16,7 +16,7 @@ h1{
     /*align-items: center;*/
 }
 
-#contenedor .animStd {
+.contenedor .animStd {
     width: 250px;
     height: 250px;
     background-color: black;
@@ -24,16 +24,16 @@ h1{
     border-color: aqua;
 }
 
-#contenedor .animStd img {
+.contenedor .animStd img {
     width: 240px;
     height: 250px;
 }
 
-#contenedor .animStd img:hover  {
+.contenedor .animStd img:hover  {
     /*-webkit-transform:scaleX(1.1) ;transform:scale(1.1);*/
     animation: spin 2s linear infinite;
 }
-#contenedor .animStd .nombre-personaje {
+.contenedor .animStd .nombre-personaje {
     text-align: center;
     color: white ;
 }
